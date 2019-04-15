@@ -1,0 +1,27 @@
+eureka(maste)
+
+	eureka service port
+		eureka服务端 直接启动即可
+
+	eureka client port1
+		eureka客户端节点一 启动后会自动向eureka service项目进行服务的注册
+			call 测试接口
+
+	eureka client port2
+		eureka客户端节点二 同节点一大同小异
+			router 测试接口 通过RestTemplate的方式调用client port1的call测试接口
+
+
+
+
+eureka(cluster)
+	所有项目在基于原项目的基础上 新增集群及负载均衡(轮询策略)
+
+		eureka service port
+			双节点互调
+
+		eureka client port1
+			任意节点(轮询)
+
+		eureka client port2
+			任意节点(轮询)
