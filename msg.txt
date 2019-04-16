@@ -1,0 +1,30 @@
+eureka(maste)
+
+	eureka service port
+		eureka服务端 直接启动即可
+
+	eureka client port1
+		eureka客户端节点一 启动后会自动向eureka service项目进行服务的注册
+			call 测试接口
+
+	eureka client port2
+		eureka客户端节点二 同节点一大同小异
+			router 测试接口 通过RestTemplate的方式调用client port1的call测试接口
+
+
+
+eureka(config)
+
+	eureka service port
+		eureka服务端 直接启动即可
+
+	eureka client port1
+		eureka客户端节点一 启动后会自动向eureka service项目进行服务的注册
+			call 测试接口
+			isValid 测试更新eureka控制台的项目状态
+
+	eureka client port2
+		eureka客户端节点二 同节点一大同小异
+			router 测试接口 通过RestTemplate的方式调用client port1的call测试接口
+			isValid 同上 测试更新eureka控制台的项目状态
+
