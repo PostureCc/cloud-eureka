@@ -1,0 +1,4 @@
+com\chan\EurekaClientController.class
+com\chan\EurekaClientPort1Application.class
+com\chan\HealthCheckHandlerImpl.class
+com\chan\HealthIndicatorImpl.class

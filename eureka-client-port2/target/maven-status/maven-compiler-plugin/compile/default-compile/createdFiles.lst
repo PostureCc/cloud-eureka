@@ -1,0 +1,7 @@
+com\chan\EurekaClientPort2Application.class
+com\chan\feign\MyFeign.class
+com\chan\feign\MyFeignImpl.class
+com\chan\HealthCheckHandlerImpl.class
+com\chan\HealthIndicatorImpl.class
+com\chan\feign\FeignController.class
+com\chan\EurekaClientPort2Controller.class

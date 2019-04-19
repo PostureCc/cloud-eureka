@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * eureka-client-port1:需要调用哪个服务
- * */
-@FeignClient("eureka-client-port1")
-public interface  MyFeign {
+ * value:eureka-client-port1:需要调用哪个服务 
+ * fallback:熔断后的处理类
+ */
+@FeignClient(name = "eureka-client-port1", fallback = MyFeignImpl.class)
+public interface MyFeign {
 
-	@RequestMapping(value = "/call/{str}", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/call/{str}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	String call(@PathVariable("str") String str);
 
-	
 }
