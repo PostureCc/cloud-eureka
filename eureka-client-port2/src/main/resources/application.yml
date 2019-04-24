@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: eureka-client-port2
+  cloud:
+    stream:
+      bindings:
+        myInput:
+          #group2消费组有两个消费者 而在这里使用的是RabbitMQ 所以默认会采用轮询进行负载
+          group: group2
 eureka:
   client:
     serviceUrl:

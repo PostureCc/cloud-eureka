@@ -1055,3 +1055,54 @@
 2019-04-23 19:34:29,320 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-04-23 19:34:29,325 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-23 19:34:29,325 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\src\test\resources
+2019-04-24 11:10:50,088 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-24 11:11:06,848 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chan:eureka-client-port1:1.0-SNAPSHOT @ D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port1\pom.xml.
+2019-04-24 11:11:14,601 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chan:eureka-client-port2:1.0-SNAPSHOT @ D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port2\pom.xml.
+2019-04-24 11:11:15,359 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chan:eureka-service-port:1.0-SNAPSHOT @ D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\pom.xml.
+2019-04-24 11:11:22,061 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:22,068 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:11:22,091 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:22,092 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port1\src\test\resources
+2019-04-24 11:11:26,933 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:26,938 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:11:26,963 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:26,963 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port1\src\test\resources
+2019-04-24 11:11:29,195 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:29,196 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:11:29,210 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:29,211 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port2\src\test\resources
+2019-04-24 11:11:32,226 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:32,228 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:11:32,237 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:32,237 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\src\test\resources
+2019-04-24 11:11:32,558 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:32,562 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:11:32,564 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:11:32,565 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\src\test\resources
+2019-04-24 11:41:42,619 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:41:42,623 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:41:42,629 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:41:42,629 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port1\src\test\resources
+2019-04-24 11:41:44,140 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:41:44,141 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:41:44,144 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:41:44,144 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port2\src\test\resources
+2019-04-24 11:41:44,180 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:41:44,181 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 11:41:44,183 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 11:41:44,183 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\src\test\resources
+2019-04-24 12:17:55,477 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chan:eureka-client-port1:1.0-SNAPSHOT @ D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port1\pom.xml.
+2019-04-24 12:17:59,881 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 12:17:59,883 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 12:17:59,890 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 12:17:59,891 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port1\src\test\resources
+2019-04-24 12:18:04,924 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chan:eureka-client-port2:1.0-SNAPSHOT @ D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port2\pom.xml.
+2019-04-24 12:18:08,328 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 12:18:08,329 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 12:18:08,331 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 12:18:08,332 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-client-port2\src\test\resources
+2019-04-24 12:18:11,441 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chan:eureka-service-port:1.0-SNAPSHOT @ D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\pom.xml.
+2019-04-24 12:18:19,933 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 12:18:19,934 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 12:18:19,942 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 12:18:19,942 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MyProgramme\MyDOM\gitWork\SpringCloud_Test\eureka-service\eureka-service-port\src\test\resources

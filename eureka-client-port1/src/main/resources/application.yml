@@ -9,6 +9,14 @@ spring:
 
   application:
     name: eureka-client-port1
+  
+  #mq的消费组 类似于rabbit中的topic模式
+  cloud:
+    stream:
+      bindings:
+        myInput:
+          #group1消费组只有一个消费者
+          group: group1
 eureka:
   client:
     serviceUrl:

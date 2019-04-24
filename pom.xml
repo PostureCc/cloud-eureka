@@ -12,6 +12,8 @@
         <module>eureka-service-port</module>
         <module>eureka-client-port1</module>
         <module>eureka-client-port2</module>
+        <module>eureka-client-port3</module>
+        <module>eureka-producer</module>
     </modules>
 
     <properties>

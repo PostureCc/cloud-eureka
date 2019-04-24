@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-port1" />
         <module name="eureka-client-port2" />
+        <module name="eureka-client-port3" />
+        <module name="eureka-producer" />
         <module name="eureka-service-port" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="eureka-client-port1" target="1.5" />
       <module name="eureka-client-port2" target="1.5" />
+      <module name="eureka-client-port3" target="1.5" />
+      <module name="eureka-producer" target="1.5" />
       <module name="eureka-service" target="1.5" />
       <module name="eureka-service-port" target="1.5" />
     </bytecodeTargetLevel>

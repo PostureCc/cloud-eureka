@@ -1,0 +1,13 @@
+eureka-service-port	eureka服务器
+eureka-producer		eureka客户端之一 主要用于消息的发送 生产者
+eureka-client-port1	eureka客户端之一 主要用于消息的接收 消费者之一 引用分组(分区)消费 group1
+eureka-client-port2	eureka客户端之一 主要用于消息的接收 消费者之一 引用分组(分区)消费 group2
+eureka-client-port3	eureka客户端之一 主要用于消息的接收 消费者之一 引用分组(分区)消费 group2
+
+
+测试用例
+	1.访问http://chan:9080/test/Hello 页面返回success eureak-producer控制台打印日志send success... 发送消息成功
+	2.eureka-client-port1控制台中 无论如何都会打印消费者日志 否则失败
+	3.eureka-client-port2或eureka-client-port3控制台中 因为采用的是RabbitMQ 并且引用了分组消费的概念 所以会与eureka-client-port3项目进行轮询消费 只要两者有一者能够消费成功 即为成功
+
+	[4.]因为采用的是stream流 所以在本项目中可无缝将RabbitMQ切换成Kafka 切换方式 更改pom.xml中的*.rabbit.jar包即可 但切换后成Kafka似乎不能轮询消费

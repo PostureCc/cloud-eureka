@@ -4,6 +4,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-service-port" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-client-port1" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-client-port2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-producer" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1555675172131_1" label="Window Working Set" name="Aggregate for window 1555675172130"/>
 </workingSetManager>
