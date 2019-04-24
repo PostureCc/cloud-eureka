@@ -1,0 +1,13 @@
+package com.chan.feign;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyFeignImpl implements MyFeign {
+
+	public String call(String str) {
+		System.out.println("熔断后的处理..." + str);
+		return null;
+	}
+
+}

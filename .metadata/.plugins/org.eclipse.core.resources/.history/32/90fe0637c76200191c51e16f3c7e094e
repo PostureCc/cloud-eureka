@@ -1,0 +1,14 @@
+package com.chan.feign;
+
+import org.springframework.stereotype.Component;
+
+//注意这个注解很重要 没有不生效 测试方式 把port1项目停止(模拟该服务挂机)
+@Component
+public class MyFeignImpl implements MyFeign {
+
+	public String call(String str) {
+		System.out.println("熔断后的处理..." + str);
+		return "MyFeignImpl Call...";
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.chan;
+
+@FeignClient("eureka-client-port1")
+public class MyFeign {
+
+}

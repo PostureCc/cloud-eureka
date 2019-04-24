@@ -1,0 +1,26 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: eureka-client-port2
+
+#hystrix集成feign 打开熔断开关
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    HelloClient#toHello():
+      execution:
+        isolation:
+          thread: 
+            timeoutInMilliseconds: 500
+      circuitBreaker:
+        requestVolumeThreshold: 3
+
+eureka:
+  client:
+    #eureka控制台的刷新时间 默认30s
+    instanceInfoReplicationIntervalSeconds: 10
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

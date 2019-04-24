@@ -1,0 +1,12 @@
+package com.chan.feign;
+
+public class MyFeignImpl implements MyFeign {
+
+	@A
+	
+	public String call(String call) {
+		
+		return null;
+	}
+
+}

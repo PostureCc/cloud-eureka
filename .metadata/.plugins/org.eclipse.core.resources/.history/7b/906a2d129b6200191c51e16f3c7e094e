@@ -1,0 +1,6 @@
+package com.chan;
+
+
+public class MyFeign {
+
+}

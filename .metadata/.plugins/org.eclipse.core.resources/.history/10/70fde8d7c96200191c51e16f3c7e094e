@@ -1,0 +1,31 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: eureka-client-port2
+
+#hystrix集成feign
+feign:
+  hystrix:
+    #打开熔断开关
+    enabled: true
+hystrix:
+  command:
+    #设置熔断后的处理 default表示全局配置
+#    default: 
+     myFeign#testFeign()
+      execution: 
+        isolation: 
+          thread: 
+            #打开熔断器的第一个条件:500ms为超时时间
+            timeoutInMilliseconds: 500
+      circuitBreaker:
+        #打开熔断器的第二个条件:10s内 若有三次请求都挂了 默认值20
+        requestVolumeThreshold: 3
+
+eureka:
+  client:
+    #eureka控制台的刷新时间 默认30s
+    instanceInfoReplicationIntervalSeconds: 10
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,31 @@
+package com.chan.feign;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.netflix.hystrix.HystrixCircuitBreaker;
+import com.netflix.hystrix.HystrixCommandKey;
+
+@RestController
+public class FeignController {
+
+	@Autowired
+	private MyFeign myFeign;
+
+	@GetMapping("/feignTest/{str}")
+	public String call(@PathVariable String str) {
+		return myFeign.call(str);
+	}
+
+	@GetMapping("/testFeign/{str}")
+	public String toHello(@PathVariable String str) {
+		HystrixCircuitBreaker breaker = HystrixCircuitBreaker.Factory
+				.getInstance(HystrixCommandKey.Factory
+						.asKey("myFeign#testFeign()"));	
+		System.out.println("熔断器状态：" + breaker.isOpen());
+		return myFeign.call(str);
+	}
+}

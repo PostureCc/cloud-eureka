@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1555433234580_0" label="eureka-service" name="eureka-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-service-port" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-client-port1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-client-port2" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1555675172131_1" label="Window Working Set" name="Aggregate for window 1555675172130"/>
+</workingSetManager>

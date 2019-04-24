@@ -1,0 +1,47 @@
+package com.chan.feign;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.netflix.hystrix.HystrixCircuitBreaker;
+import com.netflix.hystrix.HystrixCommandKey;
+
+
+@RestController
+public class FeignController {
+
+	@Autowired
+	private MyFeign myFeign;
+
+	@GetMapping("/feignTest/{str}")
+	public String call(@PathVariable String str) {
+		return myFeign.call(str);
+	}
+
+	@GetMapping("/testFeign/{str}")
+	public String testFeign(@PathVariable String str) {
+		String res = myFeign.call(str);
+		HystrixCircuitBreaker breaker = HystrixCircuitBreaker.Factory
+				.getInstance(HystrixCommandKey.Factory.asKey("myFeign#call()"));
+		System.out.println("熔断器状态：" + breaker.isOpen());
+		return res;
+	}
+
+	@GetMapping("/batchFeign")
+	public String testFeign() {
+		for (int i = 1; i <= 10; i++) {
+			final Integer k = i;
+			new Thread(() -> {
+				String res = myFeign.call("str" + k);
+				HystrixCircuitBreaker breaker = HystrixCircuitBreaker.Factory
+						.getInstance(HystrixCommandKey.Factory.asKey("myFeign#call()"));
+				System.out.println("熔断器状态：" + breaker.isOpen());
+			}).start();
+		}
+
+		return "";
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.chan;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+@FeignClient("eureka-client-port1")
+public class MyFeign {
+
+	@RequestMapping(method = RequestMethod.GET, value="/hello/{name}")
+	String hello(@PathVariable("name") String name);
+
+	
+}

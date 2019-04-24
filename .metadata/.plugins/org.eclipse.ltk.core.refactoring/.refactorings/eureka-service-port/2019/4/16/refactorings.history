@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;eureka-client-port2/src/main/java/com.chan&apos;&#x0D;&#x0A;- Original project: &apos;eureka-service-port&apos;&#x0D;&#x0A;- Destination element: &apos;eureka-client-port2/src/main/java/com.chan&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.chan.HealthCheckHandlerImpl.java&#x0D;&#x0A;     com.chan.HealthIndicatorImpl.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=eureka-client-port2/src\/main\/java&lt;com.chan" element1="/src\/main\/java&lt;com.chan{HealthCheckHandlerImpl.java" element2="/src\/main\/java&lt;com.chan{HealthIndicatorImpl.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1555435991218" units="2" version="1.0"/>
+</session>

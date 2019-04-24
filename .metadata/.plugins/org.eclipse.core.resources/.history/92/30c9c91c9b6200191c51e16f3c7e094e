@@ -1,0 +1,6 @@
+package com.chan;
+
+@FeignClient("spring-feign-provider")
+public class MyFeign {
+
+}
